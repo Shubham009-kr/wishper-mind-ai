@@ -27,10 +27,11 @@ export default function SignUpPage() {
       <div className="auth-container">
         <aside className="auth-left">
           <div className="auth-left-inner">
-            <div className="text-sm font-semibold uppercase tracking-[0.15em] text-sm text-muted-foreground">
+            
+            <div className="text-3xl font-semibold uppercase tracking-[0.01em] text-3xl text-muted-foreground">
               Wishper Mind AI
             </div>
-            <h1 className="mt-6 text-3xl font-semibold">
+            <h1 className="mt-6 text-2xl font-semibold">
               Join your secure architecture workspace
             </h1>
             <p className="mt-4 max-w-xs text-sm leading-7 text-muted-foreground">
