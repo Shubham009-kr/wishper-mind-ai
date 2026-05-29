@@ -26,7 +26,7 @@ export function EditorNavbar() {
       </div>
 
       <div className="flex items-center gap-2">
-        <UserButton afterSignOutUrl="/sign-in" />
+        <UserButton afterSignOutUrl={process.env.NEXT_PUBLIC_CLERK_SIGN_IN_URL || "/sign-in"} />
       </div>
     </header>
   )
