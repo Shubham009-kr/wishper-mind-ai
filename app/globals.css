@@ -48,72 +48,72 @@
 }
 
 :root {
-    --background: oklch(0.145 0 0);
-    --foreground: oklch(0.985 0 0);
-    --card: oklch(0.205 0 0);
-    --card-foreground: oklch(0.985 0 0);
-    --popover: oklch(0.205 0 0);
-    --popover-foreground: oklch(0.985 0 0);
-    --primary: oklch(0.922 0 0);
-    --primary-foreground: oklch(0.205 0 0);
-    --secondary: oklch(0.269 0 0);
-    --secondary-foreground: oklch(0.985 0 0);
-    --muted: oklch(0.269 0 0);
-    --muted-foreground: oklch(0.708 0 0);
-    --accent: oklch(0.269 0 0);
-    --accent-foreground: oklch(0.985 0 0);
-    --destructive: oklch(0.704 0.191 22.216);
-    --border: oklch(1 0 0 / 10%);
-    --input: oklch(1 0 0 / 15%);
-    --ring: oklch(0.556 0 0);
-    --chart-1: oklch(0.87 0 0);
-    --chart-2: oklch(0.556 0 0);
-    --chart-3: oklch(0.439 0 0);
-    --chart-4: oklch(0.371 0 0);
-    --chart-5: oklch(0.269 0 0);
-    --radius: 0.625rem;
-    --sidebar: oklch(0.205 0 0);
-    --sidebar-foreground: oklch(0.985 0 0);
-    --sidebar-primary: oklch(0.488 0.243 264.376);
-    --sidebar-primary-foreground: oklch(0.985 0 0);
-    --sidebar-accent: oklch(0.269 0 0);
-    --sidebar-accent-foreground: oklch(0.985 0 0);
-    --sidebar-border: oklch(1 0 0 / 10%);
-    --sidebar-ring: oklch(0.556 0 0);
+  --background: #0b0713;
+  --foreground: #f6f3ff;
+  --card: #1b0f2b;
+  --card-foreground: #f6f3ff;
+  --popover: #1b0f2b;
+  --popover-foreground: #f6f3ff;
+  --primary: #7c4dff;
+  --primary-foreground: #ffffff;
+  --secondary: #4b2b7f;
+  --secondary-foreground: #efe9ff;
+  --muted: #3a254a;
+  --muted-foreground: #cfc3ff;
+  --accent: #6f3bff;
+  --accent-foreground: #ffffff;
+  --destructive: #ff6b6b;
+  --border: rgba(255,255,255,0.06);
+  --input: rgba(255,255,255,0.03);
+  --ring: rgba(124,77,255,0.25);
+  --chart-1: #c6b8ff;
+  --chart-2: #a487ff;
+  --chart-3: #7c4dff;
+  --chart-4: #5a2fff;
+  --chart-5: #3b1799;
+  --radius: 0.625rem;
+  --sidebar: #120818;
+  --sidebar-foreground: #f6f3ff;
+  --sidebar-primary: #2e0b3f;
+  --sidebar-primary-foreground: #f6f3ff;
+  --sidebar-accent: #4b2b7f;
+  --sidebar-accent-foreground: #f6f3ff;
+  --sidebar-border: rgba(255,255,255,0.06);
+  --sidebar-ring: rgba(124,77,255,0.2);
 }
 
 .dark {
-    --background: oklch(0.145 0 0);
-    --foreground: oklch(0.985 0 0);
-    --card: oklch(0.205 0 0);
-    --card-foreground: oklch(0.985 0 0);
-    --popover: oklch(0.205 0 0);
-    --popover-foreground: oklch(0.985 0 0);
-    --primary: oklch(0.922 0 0);
-    --primary-foreground: oklch(0.205 0 0);
-    --secondary: oklch(0.269 0 0);
-    --secondary-foreground: oklch(0.985 0 0);
-    --muted: oklch(0.269 0 0);
-    --muted-foreground: oklch(0.708 0 0);
-    --accent: oklch(0.269 0 0);
-    --accent-foreground: oklch(0.985 0 0);
-    --destructive: oklch(0.704 0.191 22.216);
-    --border: oklch(1 0 0 / 10%);
-    --input: oklch(1 0 0 / 15%);
-    --ring: oklch(0.556 0 0);
-    --chart-1: oklch(0.87 0 0);
-    --chart-2: oklch(0.556 0 0);
-    --chart-3: oklch(0.439 0 0);
-    --chart-4: oklch(0.371 0 0);
-    --chart-5: oklch(0.269 0 0);
-    --sidebar: oklch(0.205 0 0);
-    --sidebar-foreground: oklch(0.985 0 0);
-    --sidebar-primary: oklch(0.488 0.243 264.376);
-    --sidebar-primary-foreground: oklch(0.985 0 0);
-    --sidebar-accent: oklch(0.269 0 0);
-    --sidebar-accent-foreground: oklch(0.985 0 0);
-    --sidebar-border: oklch(1 0 0 / 10%);
-    --sidebar-ring: oklch(0.556 0 0);
+  --background: #0b0713;
+  --foreground: #f6f3ff;
+  --card: #1b0f2b;
+  --card-foreground: #f6f3ff;
+  --popover: #1b0f2b;
+  --popover-foreground: #f6f3ff;
+  --primary: #7c4dff;
+  --primary-foreground: #ffffff;
+  --secondary: #4b2b7f;
+  --secondary-foreground: #efe9ff;
+  --muted: #3a254a;
+  --muted-foreground: #cfc3ff;
+  --accent: #6f3bff;
+  --accent-foreground: #ffffff;
+  --destructive: #ff6b6b;
+  --border: rgba(255,255,255,0.06);
+  --input: rgba(255,255,255,0.03);
+  --ring: rgba(124,77,255,0.25);
+  --chart-1: #c6b8ff;
+  --chart-2: #a487ff;
+  --chart-3: #7c4dff;
+  --chart-4: #5a2fff;
+  --chart-5: #3b1799;
+  --sidebar: #120818;
+  --sidebar-foreground: #f6f3ff;
+  --sidebar-primary: #2e0b3f;
+  --sidebar-primary-foreground: #f6f3ff;
+  --sidebar-accent: #4b2b7f;
+  --sidebar-accent-foreground: #f6f3ff;
+  --sidebar-border: rgba(255,255,255,0.06);
+  --sidebar-ring: rgba(124,77,255,0.2);
 }
 
 @layer base {
@@ -127,3 +127,169 @@
     @apply font-sans;
     }
 }
+
+/* Make sure box-sizing is consistent and prevent horizontal overflow */
+* { box-sizing: border-box; }
+html, body { overflow-x: hidden; }
+
+/* Auth page styles */
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(60% 60% at 20% 20%, var(--sidebar-primary) 0%, transparent 40%), radial-gradient(40% 40% at 80% 80%, rgba(0,0,0,0.4) 0%, transparent 30%), var(--background);
+}
+.auth-container {
+  width: 80vw;
+  height: 80vh;
+  max-width: 1400px;
+  max-height: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+}
+.auth-left {
+  background: linear-gradient(180deg, var(--sidebar-primary), var(--sidebar));
+  padding: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--sidebar-foreground);
+  position: relative;
+}
+.auth-left-inner {
+  max-width: 360px;
+}
+.auth-left::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at center, rgba(255,255,255,0.03), transparent 20%);
+  mix-blend-mode: overlay;
+}
+.auth-right {
+  background: var(--card);
+  padding: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth-form-wrap {
+  width: 100%;
+  max-width: 420px;
+}
+.auth-left .text-sm { color: var(--sidebar-accent-foreground); }
+.auth-left h1 { color: var(--sidebar-primary-foreground); }
+.auth-form-wrap .clerk-form {
+  /* keep Clerk forms readable */
+}
+
+/* Responsive: tablet (<= 1024px) and mobile (<= 640px) */
+@media (max-width: 1024px) {
+  .auth-container {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 920px;
+    max-height: 1200px;
+    overflow: hidden;
+  }
+  .auth-left {
+    padding: 2rem;
+    min-height: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 0.75rem 0.75rem 0 0;
+    box-shadow: 0 10px 30px rgba(2,6,23,0.45);
+    z-index: 1;
+  }
+  .auth-left::after { display: none; }
+  .auth-left-inner {
+    max-width: 100%;
+  }
+  .auth-right {
+    padding: 2rem;
+    border-radius: 0 0 0.75rem 0.75rem;
+    box-shadow: 0 8px 24px rgba(2,6,23,0.35);
+    border-top: 1px solid rgba(255,255,255,0.04);
+  }
+  .auth-form-wrap {
+    max-width: 540px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .auth-container {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    border-radius: 0.5rem;
+    box-shadow: none;
+    margin: 1.25rem 0;
+    overflow: visible;
+  }
+  .auth-left {
+    padding: 1.25rem;
+    min-height: 0;
+    border-radius: 0.5rem 0.5rem 0 0;
+    box-shadow: 0 8px 18px rgba(2,6,23,0.28);
+  }
+  .auth-left::after { display: none; }
+  .auth-left-inner h1 {
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+  .auth-left .text-sm {
+    font-size: 0.7rem;
+  }
+  .auth-right {
+    padding: 1.25rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    box-shadow: 0 6px 14px rgba(2,6,23,0.22);
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  .auth-form-wrap {
+    padding: 0.25rem;
+    max-width: 100%;
+    background: var(--card);
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+  }
+}
+
+/* Responsive safeguards: ensure container never exceeds viewport and allow internal scrolling on very small screens */
+.auth-container { max-width: calc(100vw - 2rem); max-height: calc(100vh - 2rem); }
+.auth-container { overflow: hidden; }
+@media (max-width: 520px), (max-height: 520px) {
+  .auth-container { overflow: auto; }
+}
+
+/* Ensure Clerk forms and wrappers never overflow */
+.auth-form-wrap, .auth-form-wrap > * { width: 100%; max-width: 100%; }
+.auth-form-wrap .clerk-form, .auth-form-wrap form { width: 100%; max-width: 100%; }
+
+/* Emblem scaling and positioning */
+.auth-left .emblem { width: 100%; height: auto; display: flex; align-items: center; justify-content: center; }
+.auth-left .emblem svg { max-width: 260px; width: 60%; height: auto; }
+
+/* Small-screen height adjustments */
+@media (max-height: 640px) {
+  .auth-left::after { display: none; }
+  .auth-left { padding: 1rem; }
+  .auth-right { padding: 1rem; }
+}
+
+/* Fluid heading */
+.auth-left h1 { font-size: clamp(1.25rem, 2.5vw, 2rem); line-height: 1.15; }
+
+/* Prevent any accidental horizontal scroll from child elements */
+.auth-left, .auth-right { overflow: hidden; }

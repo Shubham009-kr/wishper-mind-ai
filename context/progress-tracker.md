@@ -4,11 +4,11 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Design system implementation
+- Authentication integration
 
 ## Current Goal
 
-- Install and configure shadcn/ui with core UI primitives and Tailwind integration.
+- Complete Clerk auth pages, route protection, and editor user session flow.
 
 ## Completed
 
@@ -17,15 +17,16 @@ Update this file whenever the current phase, active feature, or implementation s
  - Implemented Editor Navbar component
  - Implemented Project Sidebar component
  - Dialog pattern available via components/ui/dialog.tsx
+ - Added Clerk auth integration: root layout provider, sign-in/sign-up pages, proxy middleware route protection, and editor UserButton
 
 ## In Progress
 
-- Verifying imports and Tailwind integration for generated and newly added components (editor chrome)
+- No active auth work; build and route protection verified
 
 ## Next Up
 
-- Confirm generated components import cleanly and run a TypeScript build
 - Continue building editor UI and integrate the sidebar toggle into pages
+- Add authenticated project data and editor content flows
 
 ## Open Questions
 

@@ -1,19 +1,22 @@
 "use client"
 
-import * as React from "react"
+import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { ChevronLeft, ChevronRight } from "lucide-react"
+import { UserButton } from "@clerk/nextjs"
 
-interface EditorNavbarProps {
-  sidebarOpen: boolean
-  onToggleSidebar: () => void
-}
+export function EditorNavbar() {
+  const [sidebarOpen, setSidebarOpen] = useState(true)
 
-export function EditorNavbar({ sidebarOpen, onToggleSidebar }: EditorNavbarProps) {
   return (
     <header className="fixed top-0 left-0 right-0 z-40 h-14 flex items-center justify-between px-4 bg-card border-b border-border">
       <div className="flex items-center gap-2">
-        <Button variant="ghost" size="icon-sm" onClick={onToggleSidebar} aria-label="Toggle sidebar">
+        <Button
+          variant="ghost"
+          size="icon-sm"
+          onClick={() => setSidebarOpen((prev) => !prev)}
+          aria-label="Toggle sidebar"
+        >
           {sidebarOpen ? <ChevronLeft /> : <ChevronRight />}
         </Button>
       </div>
@@ -22,7 +25,9 @@ export function EditorNavbar({ sidebarOpen, onToggleSidebar }: EditorNavbarProps
         <div className="text-sm font-medium">""</div>
       </div>
 
-      <div className="flex items-center gap-2" />
+      <div className="flex items-center gap-2">
+        <UserButton afterSignOutUrl="/sign-in" />
+      </div>
     </header>
   )
 }
